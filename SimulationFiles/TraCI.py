@@ -1,7 +1,12 @@
 import traci
 import time
-sumoBinary = "C:\\Program Files (x86)\\Eclipse\\Sumo\\bin\\sumo-gui.exe"
-sumoCmd = [sumoBinary, "-c", "C:\\Users\\abdul\\Desktop\\Sumo files\\LastParkSimulation\\osm.sumocfg"]
+import os
+
+__location__ = os.path.realpath(
+    os.path.join(os.getcwd(), os.path.dirname(__file__)))
+
+sumoBinary = os.path.join(__location__, '../sumo-gui.exe')
+sumoCmd = [sumoBinary, "-c", os.path.join(__location__, 'osm.sumocfg')]
 traci.start(sumoCmd)
 
 print("Starting SUMO")
@@ -19,7 +24,7 @@ while(j<3600):
             #sets the speed of vehicles to 15 (m/s)
             traci.vehicle.setSpeed(vehicles[i],15)
             #get actual speed, emission, edge ID and total distance travelled of vehicles
-            with open('C:\\Users\\abdul\\Desktop\\Sumo files\\LastParkSimulation\\vehicleData.txt', 'w') as file:
+            with open(os.path.join(__location__, 'vehicleData.txt'), 'w') as file:
                 for i in range(len(vehicles)):
                     vehicle = vehicles[i] + " Parameters"
                     speed_str = "Speed" + ": " + str(traci.vehicle.getSpeed(vehicles[i])) + " m/s"
@@ -40,7 +45,7 @@ while(j<3600):
                     file.write('\n')
 
 
-        with open('C:\\Users\\abdul\\Desktop\\Sumo files\\LastParkSimulation\\parkingLotData.txt', 'w') as file:
+        with open(os.path.join(__location__, 'parkingLotData.txt'), 'w') as file:
             file.write('Parkin Area' + '\t' + 'Parked Vehicle Count\n')
             for i in range(0, 49):
                 parkingArea = "pa_" + str(i)
