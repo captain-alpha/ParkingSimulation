@@ -1,8 +1,8 @@
 Steps to launch and view simulation:  
 1) Download and install the latest version of Python: 
 https://www.python.org/downloads/ 
-2) Download and install the latest version of SUMO to your computer: https://sumo.dlr.de/docs/Downloads.php (Download 64-bit installer with all extras)
-3) Click Code in this repository and click Download ZIP. Then unzip the file.
+2) Download and install the latest version of SUMO to your computer: (Download 64-bit installer with all extras)  https://sumo.dlr.de/docs/Downloads.php
+3) Install the traci module using pip install traci command in your terminal. If any other module is also missing in your pc according to console errors, install them too.
 4) Open the Parking Simulation folder and launch login.py.
 5) After the registration and successful login, you can start the simulation by clicking the green ‘Run’ button at top left in the opened simulation window.
 
