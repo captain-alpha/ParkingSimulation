@@ -1,0 +1,4 @@
+python .\addStops2Routes.py -n .\osm.net.xml.gz -r .\osm.passenger.trips.xml --parking-areas .\parkingAreas.add.xml -o parking.rou.xml --duration 3200
+
+osm.sumocfg icinde:
+<route-files value="parking.rou.xml"/>

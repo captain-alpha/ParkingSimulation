@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2024-01-11 23:54:49 by Eclipse SUMO netedit Version 1.19.0
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <!-- StoppingPlaces -->
+    <parkingArea id="pa_0" lane="213869282#0_0" endPos="125.58" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_1" lane="-213869282#0_0" endPos="125.74" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_10" lane="214171970#1_0" startPos="4.75" friendlyPos="true" roadsideCapacity="8" angle="90.00"/>
+    <parkingArea id="pa_11" lane="-463798202#0_0" endPos="35.13" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_12" lane="-214171970#0_0" startPos="5.09" endPos="55.09" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_13" lane="-214171970#1_0" endPos="56.95" friendlyPos="true" roadsideCapacity="8" angle="90.00"/>
+    <parkingArea id="pa_14" lane="214171970#0_0" startPos="5.05" endPos="55.05" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_15" lane="214171965_0" startPos="5.00" endPos="55.00" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_16" lane="-214171965_0" startPos="6.63" endPos="56.63" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_17" lane="214171974#0_0" startPos="5.73" endPos="55.73" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_18" lane="-214171974#0_0" startPos="7.55" endPos="57.55" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_19" lane="-213869458#1_0" startPos="8.65" endPos="58.65" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_2" lane="463798200_0" endPos="117.91" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_20" lane="213869458#1_0" startPos="8.58" endPos="58.58" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_21" lane="217507785#1_0" startPos="5.87" endPos="35.87" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_22" lane="217507785#2_0" startPos="4.61" endPos="34.61" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_23" lane="217507785#4_0" startPos="12.93" endPos="72.93" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_24" lane="-217507785#4_0" startPos="4.91" endPos="64.91" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_25" lane="-213869458#2_0" startPos="5.66" endPos="65.66" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_26" lane="213869458#2_0" startPos="6.00" endPos="66.00" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_27" lane="213869308#0_0" startPos="8.66" endPos="38.66" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_28" lane="-213869308#0_0" startPos="6.20" endPos="36.20" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_29" lane="213869308#1_0" startPos="4.71" endPos="34.71" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_3" lane="-463798200_0" endPos="115.77" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_30" lane="-213869308#1_0" startPos="4.18" endPos="34.18" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_31" lane="-213869308#2_0" startPos="1.50" endPos="31.50" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_32" lane="-213869308#3_0" startPos="7.33" endPos="67.33" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_33" lane="213869308#3_0" startPos="11.74" endPos="71.74" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_34" lane="-214171964_0" startPos="12.48" endPos="82.48" friendlyPos="true" roadsideCapacity="25" angle="90.00"/>
+    <parkingArea id="pa_35" lane="214171964_0" startPos="13.87" endPos="83.87" friendlyPos="true" roadsideCapacity="25" angle="90.00"/>
+    <parkingArea id="pa_36" lane="192776638#2_0" startPos="6.56" endPos="96.56" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_37" lane="-192776638#2_0" startPos="11.37" endPos="101.37" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_38" lane="192776646#2_0" startPos="13.52" endPos="103.52" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_39" lane="192776726#0_0" startPos="53.30" endPos="143.30" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_4" lane="463798201#1_0" endPos="118.36" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_40" lane="-192776726#0_0" startPos="12.32" endPos="102.32" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_41" lane="-192776769#3_0" startPos="50.58" endPos="140.58" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_42" lane="192776769#3_0" startPos="10.12" endPos="100.12" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_43" lane="-192776638#1_0" startPos="3.69" endPos="73.69" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_44" lane="192776638#1_0" startPos="4.12" endPos="74.12" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_45" lane="213869296_0" startPos="4.66" endPos="74.66" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_46" lane="-213869296_0" startPos="5.99" endPos="75.99" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_47" lane="-192776767#0_0" endPos="66.21" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_48" lane="192776767#0_0" startPos="6.59" friendlyPos="true" roadsideCapacity="20" angle="90.00"/>
+    <parkingArea id="pa_5" lane="-463798202#1_0" endPos="43.31" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_6" lane="-463798202#2_0" endPos="58.26" friendlyPos="true" roadsideCapacity="10" angle="90.00"/>
+    <parkingArea id="pa_7" lane="152469310#2_0" endPos="34.82" friendlyPos="true" roadsideCapacity="7" angle="90.00"/>
+    <parkingArea id="pa_8" lane="152469310#3_0" endPos="20.06" friendlyPos="true" roadsideCapacity="5" angle="90.00"/>
+    <parkingArea id="pa_9" lane="152469310#1_0" endPos="23.41" friendlyPos="true" roadsideCapacity="5" angle="90.00"/>
+</additional>

@@ -3,6 +3,8 @@ from tkinter import Button, Canvas, Frame, Label, PhotoImage, messagebox
 import json
 import subprocess
 import os
+__location__ = os.path.realpath(
+    os.path.join(os.getcwd(), os.path.dirname(__file__)))
 
 def register():
     username = entry_username.get()
@@ -46,8 +48,8 @@ def launch_appp():
     exit()
 
 def launch_app():
-    app_path = 'C:\\Users\\abdul\\Desktop\\Sumo files\\Parking Simulation\\osm.sumocfg'
-    os.startfile(app_path)
+    app_path = os.path.join(__location__, 'SimulationFiles/TraCI.py')
+    subprocess.call(['python', app_path])
     exit()
     
 root = tk.Tk()
@@ -56,7 +58,11 @@ root.geometry("925x500+300+200")
 #166b2d
 root.configure(bg="#fff")
 root.resizable(False,False)
-img = PhotoImage(file='C:\\Users\\abdul\\Desktop\\Sumo files\\images\\login.png')
+img = PhotoImage(file = os.path.join(__location__, 'images/login.png'))
+
+
+
+
 Label(root,image=img,bg='white').place(x=50, y=50)
 
 frame = Frame(root, width=350, height=350, bg='white')
@@ -64,12 +70,6 @@ frame.place(x= 480, y=50)
 
 heading = Label(frame, text='Sign in', fg='#57a1f8',bg='white', font=('Microsoft YaHei UI Light', 23, 'bold'))
 heading.place(x=100,y=5)
-
-
-#bg = PhotoImage(file = "C:\\Users\\abdul\\Pictures\\basic2dMap.png") 
-#canvas1 = Canvas( root, width = 400, height = 400) 
-#canvas1.pack(fill = "both", expand = True) 
-#canvas1.create_image( 0, 0, image = bg, anchor = "nw") 
 
 users = load_users_from_file()
 
@@ -97,29 +97,11 @@ Frame(frame,width=250, height=2, bg='black').place(x=25, y=177)
 Button(frame, width=35, pady=7, text='Sign in', bg='#57a1f8', fg='white', border=0, command=login).place(x=25, y=215)
 label = Label(frame, text="Don't have an account?", fg='black',bg='white', font=('Microsoft YaHei UI Light', 9))
 label.place(x=35, y=270)
-#Button(frame, width=35, pady=7, text='Settings', bg='#57a1f8', fg='white', border=0, command=launch_appp).place(x=100, y=215)
 
 sign_up = Button(frame, text='Sign Up', border=0, bg='white', cursor='hand2', fg='#57a1f8', command=register)
 sign_up.place(x=185, y=270)
 
 settings = Button(frame, text='Settings', border=0, bg='white', cursor='hand2', fg='#57a1f8', command=launch_appp)
 settings.place(x=275, y=270)
-
-
-'''
-#entry_password = tk.Entry(root, show="*")
-button_register = tk.Button(root, text="Register", command=register)
-button_login = tk.Button(root, text="Login", command=login)
-'''
-
-'''
-label_username.grid(row=0, column=0, sticky=tk.E, padx=(5, 0))
-label_password.grid(row=1, column=0, sticky=tk.E, padx=(5, 0))
-entry_username.grid(row=0, column=1, pady=5, padx=5, sticky=tk.W+tk.E)
-entry_password.grid(row=1, column=1, pady=5, padx=5, sticky=tk.W+tk.E)
-button_register.grid(row=2, column=0, columnspan=2, pady=5)
-button_login.grid(row=3, column=0, columnspan=2, pady=5)
-'''
-
 
 root.mainloop()
